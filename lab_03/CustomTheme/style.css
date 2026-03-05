@@ -1,0 +1,32 @@
+/*
+Theme Name: CustomTheme
+Author: Nicolae
+Description: Simple custom WordPress theme
+Version: 1.0
+*/
+
+/* Layout */
+body { margin: 0; font-family: Arial, sans-serif; background: #f5f5f5; color: #222; }
+a { color: inherit; }
+.container { max-width: 1100px; margin: 0 auto; padding: 20px; display: flex; gap: 20px; }
+.content { flex: 3; background: #fff; padding: 20px; border-radius: 10px; }
+.sidebar { flex: 1; background: #fff; padding: 20px; border-radius: 10px; }
+
+/* Header / Footer */
+header { background: #111; color: #fff; padding: 16px 20px; }
+header h1 { margin: 0; font-size: 22px; }
+footer { background: #111; color: #fff; padding: 16px 20px; margin-top: 30px; text-align: center; }
+
+/* Posts */
+.post, .page { margin-bottom: 20px; }
+.post h3, .page h2 { margin: 0 0 10px; }
+.meta { font-size: 12px; opacity: 0.7; margin-bottom: 12px; }
+.pagination { margin-top: 20px; }
+
+/* Sidebar widgets */
+.widget { margin-bottom: 18px; }
+.widget h4 { margin: 0 0 10px; }
+
+/* Comments */
+.comments { margin-top: 30px; }
+.comment-list { padding-left: 18px; }
